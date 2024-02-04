@@ -1,0 +1,102 @@
+
+header nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+li{
+    padding-right: 50px;
+}
+.active{
+    border-radius: 6px;
+    border: solid 1px;
+    border-color: white;
+    padding-inline: 8px;
+    padding-block: 6px;
+    margin-left: 25px;
+}
+body{
+    background-color: rgb(38, 92, 217);
+}
+.companyname{
+    display: inline-block;
+}
+
+.com{
+    margin: 0px;
+    display: inline-block;
+}
+.email{
+    margin: 0px;
+    display: inline-block;
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 50;
+    margin: 0px;
+}
+.main{
+    text-align: center;
+}
+p{
+    margin-top: 20px;
+    color: white;
+}
+.try{
+    margin-top: 3px;
+    border: solid rgb(241, 126, 183) 1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 20px;
+    background-color:rgb(241, 126, 183)
+    
+}
+
+.credit{
+    font-size: smaller;
+}
+
+img{
+    mix-blend-mode: multiply;
+    margin-right: 400px;
+    height: 200px;
+    width: 500px;
+    transform: rotate(deg);
+    opacity: 0.6;
+}
+input{
+    padding: 7px;
+}
+.logo{
+    color: white;
+    padding-left: 200px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+footer li{
+display: flex;
+flex-direction: row;
+justify-items: center;
+justify-content: center;
+padding-top: 20px;
+color: white;
+border-top: solid 1px rgb(148, 144, 144);
+
+}
